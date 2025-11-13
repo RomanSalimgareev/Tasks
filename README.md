@@ -37,7 +37,7 @@
 случится первый раз?
 
 #### Входные данные:
-В первой строке входных данных записано единственное целое число _n_ (1 ⩽ _n_ ⩽ 10<sup>9</sup>2)
+В первой строке входных данных записано единственное целое число _n_ (1 ⩽ _n_ ⩽ 10<sup>9</sup>)
 
 #### Выходные данные:
 Выведите одно число - следующий год, в котором все цифры попарно различны,
@@ -97,11 +97,12 @@ Sample Output 2:
 ![formula](https://latex.codecogs.com/svg.image?\color{white}\Large\sum_{k=1}^{l}C_{n}^{mk}\bmod10^9+7)
 
 Напомним, что
-![formula](https://latex.codecogs.com/svg.image?\color{white}\Large C_{n}^{mk}=\frac{n!}{(n-mk)!(mk)!})
+![formula](https://latex.codecogs.com/svg.image?\color{white}\Large%20C_%7Bn%7D%5E%7Bmk%7D%20%3D%20%5Cfrac%7Bn%21%7D%7B%28n-mk%29%21%28mk%29%21%7D)
+
 
 а в случае ( _n_ < _mk_ ) следует считать, что
 
-![formula](https://latex.codecogs.com/svg.image?\color{white}\Large C_{n}^{mk}=0)
+![formula](https://latex.codecogs.com/svg.image?\color{white}\Large%20C_%7Bn%7D%5E%7Bmk%7D%3D0)
 
 
-На вход подаются три целых числа _n_,  _m_, и _l_ ( 1 ⩽ _n_, _m_, _l_ ⩽ 10<sup>6</sup>2 )
+На вход подаются три целых числа _n_,  _m_, и _l_ ( 1 ⩽ _n_, _m_, _l_ ⩽ 10<sup>6</sup>)
